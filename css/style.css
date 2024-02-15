@@ -109,14 +109,17 @@ h1, h2, h3{
 
 .grid div:nth-child(3n+1)  {
     /* Set box shadow */
+    box-shadow: 3px 0px 0px 0px black;
     }
 
 .grid div:nth-child(3n)  {
-    /* Set box shadow */ 
+    /* Set box shadow */
+    box-shadow: -3px 0px 0px 0px black; 
 }
 
 .grid div:nth-child(3n+2)  {
      /* Set box shadow */
+    box-shadow: 3px 0px 0px 0px black, -3px 0px 0px 0px black;
 }
     
 
